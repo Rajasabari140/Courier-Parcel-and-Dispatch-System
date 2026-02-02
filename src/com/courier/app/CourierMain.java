@@ -1,8 +1,6 @@
 package com.courier.app;
 
 import java.util.Date;
-
-
 import com.courier.bean.Parcel;
 import com.courier.bean.Dispatch;
 import com.courier.service.DispatchService;
@@ -32,7 +30,6 @@ public class CourierMain {
         } else {
             System.out.println("PARCEL INSERT FAILED");
         }
-        
         Dispatch dispatch = new Dispatch();
         dispatch.setParcelID("P1001");
         dispatch.setVehicleID("V101");
@@ -58,3 +55,4 @@ public class CourierMain {
         System.out.println(cancelResult);
     }
 }
+
